@@ -1,10 +1,10 @@
 import _ from 'lodash';
+import transcription from './transcription';
+import './style.css';
+import './bruxaria-e-feiticaria.mp3';
 
 function component() {
-  const element = document.createElement('div');
-
-  // Lodash, now imported by this script
-  element.innerHTML = _.join(['Hello', 'webpack'], ' ');
+  transcription('reference')
 
   return element;
 }

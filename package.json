@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npx webpack --mode=production",
-    "server": "npx webpack serve --mode=development"
+    "server": "npx webpack serve"
   },
   "keywords": [],
   "author": "",
@@ -17,6 +17,15 @@
     "webpack-dev-server": "^4.3.0"
   },
   "dependencies": {
-    "lodash": "^4.17.21"
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "babel-loader": "^8.2.2",
+    "copy-webpack-plugin": "^9.0.1",
+    "css-loader": "^6.4.0",
+    "file-loader": "^6.2.0",
+    "lodash": "^4.17.21",
+    "mini-css-extract-plugin": "^2.4.2",
+    "sass": "^1.42.1",
+    "sass-loader": "^12.1.0"
   }
 }
